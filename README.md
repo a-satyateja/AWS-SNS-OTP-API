@@ -10,11 +10,21 @@
 - number `String`
 - subject `String`
 
+### Setup
+- Create an account on AWS
+- Navigate to SNS
+- Create Security Credentials
+- Apply for Extension in Message Limit by contacting customer support in case the OTP fails
+
 ### Instructions
 
 Send a GET Request from browser,
 
 `http://localhost:3000/?message=[Message]&number=[Number]&subject=[Subject]`
+
+After triggering the API, you will receive the OTP.
+
+![OTP from AWS SNS API Nodejs](https://dev-to-uploads.s3.amazonaws.com/i/kb75txaszcmtn8g3nqzq.jpg)
 
 The mobile number should be E.164 format but without the + character.
 
