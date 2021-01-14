@@ -2,6 +2,8 @@
 
 ![aws-sns-otp-api nodejs repo github](./demo/aws-sns-otp-api.png)
 
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=realabbas.aws-sns-otp-api)
+
 ### API Endpoint
 
 `GET Request to / route` with following paramaters in the GET Request
